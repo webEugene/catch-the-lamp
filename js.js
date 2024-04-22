@@ -1,3 +1,4 @@
+// OLD JS Script
 let count = document.getElementById('counts');
 let lamp = document.getElementById('lamp');
 let timeout = document.getElementById("timeout");

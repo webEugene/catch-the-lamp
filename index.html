@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Guess the lamp (Game)</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Catch the lamp (Game)</title>
 	<link rel="stylesheet" href="main.css">
 </head>
 <body>
 	<div class="table-count">
-		<button class="btn-start" onclick="startGame()">Start</button>
+		<button id="start-game" class="btn-start">Start</button>
 		<span class="goals">Goals: </span><span id="counts">0</span>
 		<span class="left-time">Time: </span><span id="timeout">5</span>
 	</div>
@@ -15,6 +16,6 @@
 		<div id="lamp"></div>
 	</div>
 	<div id="popup"></div>
-<script src="js.js"></script>
+	<script src="catch.js"></script>
 </body>
 </html>
